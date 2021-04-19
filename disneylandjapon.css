@@ -1,0 +1,83 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color: darkslateblue;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul > li > a{
+    padding: 50px 50px;
+    color: white;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+
+    }
+
+
+
+.mhome:hover{
+   
+    background-color: yellow;
+}
+.mdisneylandjapon:hover{
+   
+    background-color: yellow;
+}
+.mMuseecivilisationnoire:hover{
+   
+    background-color: yellow;
+}
+.mtdp:hover{
+   
+    background-color: yellow;
+}
+.mcitéinterdite:hover{
+   
+    background-color: yellow;
+}
+padding:1px 0;
+    }
+    #entete {
+        height:170px;
+    background-color:#FF9900;
+    text-align:center
+    }
+    #main {
+    max-with:960px;
+    margin:0px;
+    }
+    
+
+    #contenu {
+        text-align: center;
+        height: 3200px;
+    margin-left:;
+    background-color: darkblue;
+    }
+    #footer { 
+        height: 80px;
+    background-color:#669933;
+    text-align:center;
+    clear:both;
+    }
